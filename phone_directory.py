@@ -5,9 +5,9 @@ import re
 DIRECTORY_FILE = "phone_directory.txt"
 
 # Define regex patterns for each field
-surname_pattern = r'^[A-Za-z\s-]*$'
-name_pattern = r'^[A-Za-z\s]*$'
-organization_pattern = r'^[A-Za-z\s-]*$'
+surname_pattern = r'^[A-Za-zА-Яа-я\s-]*$'
+name_pattern = r'^[A-Za-zА-Яа-я\s]*$'
+organization_pattern = r'^[A-Za-zА-Яа-я\s-]*$'
 phone_pattern = r'^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$'
 
 field_names = ["surname", "name", "patronymic", "organization", "work_phone", "personal_phone"]
