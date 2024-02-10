@@ -66,8 +66,7 @@ The Phone Directory Program is a console-based application that allows users to 
 
 ## Example
 Here's an example of how to use the program:
-`
-
+```
 Phone Directory Menu:
 1. Display Entries
 2. Add Entry
@@ -134,4 +133,5 @@ Phone Directory Menu:
 5. Exit
 Enter your choice: 5
 Exiting the program.
-`
+```
+
